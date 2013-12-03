@@ -1,4 +1,4 @@
 block button {
-    tag: 'button'
-    attrs: ({type: 'button'})
+    tag : 'button'
+    attrs : ({ type : 'button' })
 }

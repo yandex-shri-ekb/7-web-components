@@ -22,7 +22,7 @@ modules.define(
 
         function getTitleJSON (content) {
             return {
-                content: formatTitle(content)
+                content : formatTitle(content)
             };
         }
 
