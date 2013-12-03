@@ -1,0 +1,19 @@
+.button
+{
+    margin: 0;
+    padding: 10px;
+    border: none;
+    background: none;
+    color: #ef4f69;
+    cursor: pointer;
+}
+
+.button:focus
+{
+	outline: 0;
+}
+
+.button_hovered
+{
+    color: #495468;
+}

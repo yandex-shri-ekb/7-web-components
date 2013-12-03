@@ -1,0 +1,11 @@
+block calendar {
+    content : [
+        {
+            block : 'navigation'
+        },
+        {
+            block : 'month'
+        }
+    ],
+    js : true
+}

@@ -1,0 +1,34 @@
+.navigation
+{
+    display: table;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+
+.navigation__title
+{
+    display: table-cell;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation__prev-month,
+.navigation__next-month
+{
+    display: table-cell;
+    font-size: 24px;
+}
+
+.navigation__prev-month:after
+{
+    content: '\25c2';
+}
+
+.navigation__next-month:after
+{
+    content: '\25b8';
+}

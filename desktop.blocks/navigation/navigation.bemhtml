@@ -1,0 +1,16 @@
+block navigation {
+    content : [
+        {
+            block : 'button',
+            mix : [{ block : 'navigation', elem : 'prev-month' }]
+        },
+        {
+            elem : 'title'
+        },
+        {
+            block : 'button',
+            mix : [{ block : 'navigation', elem : 'next-month' }]
+        }
+    ],
+    js : true
+}
